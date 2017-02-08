@@ -7,6 +7,7 @@ resource "random_id" "blah" {
 }
 
 output "foo" {
+  sensitive = true
   value = "${var.big_secret}"
 }
 
