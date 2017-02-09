@@ -7,5 +7,5 @@ module "fake" {
 
 module "beer" {
   source        = "./beer"
-  lovely_source = ""
+  lovely_sour = ""
 }
