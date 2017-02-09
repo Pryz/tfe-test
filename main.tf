@@ -1,4 +1,9 @@
 module "fake" {
-  source = "./fake"
+  source         = "./fake"
   no_secret_here = ""
+}
+
+module "beer" {
+  source        = "./beer"
+  lovely_source = ""
 }
