@@ -1,1 +1,1 @@
-no_secret_here = "fake"
+no_secret_here = "test"
