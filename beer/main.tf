@@ -1,4 +1,4 @@
-resource "random_id" "server" {
+resource "random_id" "beer1" {
   byte_length = 8
 }
 
